@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/benorgera/Documents/CHS Robotics/Code/Humanoid1/ftcapp/FtcRobotController/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0666d81ab6701ba68f81b170cbdb78ba434eb00b">
+        <dex dex="/Users/benorgera/Documents/CHS Robotics/Code/Humanoid1/ftcapp/FtcRobotController/build/intermediates/pre-dexed/debug/classes-f2e8f24e5c2f87f466b04fe84e94b9bc06b42dde.jar" />
+    </item>
+    <item
+        jar="/Users/benorgera/Documents/CHS Robotics/Code/Humanoid1/ftcapp/FtcRobotController/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01999c87afe3d10ffa06f3efa66f39e61e6aba0c">
+        <dex dex="/Users/benorgera/Documents/CHS Robotics/Code/Humanoid1/ftcapp/FtcRobotController/build/intermediates/pre-dexed/debug/classes-ecf48a209f6ae8a7c0bcce66ae0abf5471485682.jar" />
+    </item>
+    <item
+        jar="/Users/benorgera/Documents/CHS Robotics/Code/Humanoid1/ftcapp/FtcRobotController/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
+        <dex dex="/Users/benorgera/Documents/CHS Robotics/Code/Humanoid1/ftcapp/FtcRobotController/build/intermediates/pre-dexed/debug/classes-8db50d4d34fde689eac3afbec7c587c352ed5b42.jar" />
+    </item>
+    <item
+        jar="/Users/benorgera/Documents/CHS Robotics/Code/Humanoid1/ftcapp/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e19ebc3f612058d1ce56c27e0867f609eb73edfa">
+        <dex dex="/Users/benorgera/Documents/CHS Robotics/Code/Humanoid1/ftcapp/FtcRobotController/build/intermediates/pre-dexed/debug/classes-3542cfc81e8f610aad3ff0eb44aa69268807e173.jar" />
+    </item>
+    <item
+        jar="/Users/benorgera/Documents/CHS Robotics/Code/Humanoid1/ftcapp/FtcRobotController/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b3fe4efe8fad907294d5332bf26afe87764694f">
+        <dex dex="/Users/benorgera/Documents/CHS Robotics/Code/Humanoid1/ftcapp/FtcRobotController/build/intermediates/pre-dexed/debug/classes-41464b0a3f2f2ef1f1dd5731dcaf5d9fb3e5db45.jar" />
+    </item>
+    <item
+        jar="/Users/benorgera/Documents/CHS Robotics/Code/Humanoid1/ftcapp/FtcRobotController/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
+        <dex dex="/Users/benorgera/Documents/CHS Robotics/Code/Humanoid1/ftcapp/FtcRobotController/build/intermediates/pre-dexed/debug/classes-967e14cea83575047fc6b434e8beb9ae19a218c8.jar" />
+    </item>
+
+</items>
