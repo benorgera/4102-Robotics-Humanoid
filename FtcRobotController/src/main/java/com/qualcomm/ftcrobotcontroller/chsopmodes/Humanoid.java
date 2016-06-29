@@ -37,14 +37,14 @@ public class Humanoid extends LinearOpMode {
 
         left = new Arm(
                 hardwareMap.dcMotor.get("left_shoulder_fb"),
-                hardwareMap.servo.get("left_ shoulder_lr"),
+                hardwareMap.servo.get("left_shoulder_lr"),
                 hardwareMap.servo.get("left_elbow_rotate"),
                 hardwareMap.servo.get("left_elbow_hinge"),
                 hardwareMap.servo.get("left_hand"));
 
         right = new Arm(
                 hardwareMap.dcMotor.get("right_shoulder_fb"),
-                hardwareMap.servo.get("right_ shoulder_lr"),
+                hardwareMap.servo.get("right_shoulder_lr"),
                 hardwareMap.servo.get("right_elbow_rotate"),
                 hardwareMap.servo.get("right_elbow_hinge"),
                 hardwareMap.servo.get("right_hand"));
