@@ -14,13 +14,14 @@ public class Humanoid extends LinearOpMode {
 
     //robot systems
 
-    Wheels wheels;
-    Arm left;
-    Arm right;
+    private Wheels wheels;
+    private Arm left;
+    private Arm right;
 
-    boolean isRightArm = true;
+    private boolean isRightArm = true;
+    private boolean lastClawState = false;
 
-    Necessities n;
+    private Necessities n;
 
     public void initialize() {
 
@@ -58,7 +59,7 @@ public class Humanoid extends LinearOpMode {
 
         while (opModeIsActive()) {
 
-            wheels.processMainstream(gamepad1.left_stick_x, gamepad1.left_stick_y * -1);
+            wheels.processMainstream(gamepad1.left_stick_x, gamepad1.left_stick_y * -1.0);
 
             isRightArm = gamepad2.right_bumper ? true : gamepad2.left_bumper ? false : isRightArm;
 
@@ -84,8 +85,10 @@ public class Humanoid extends LinearOpMode {
         a.setShoulderFB(gamepad2.left_stick_y);
         a.setShoulderLR(gamepad2.left_stick_x);
         a.setElbowHinge(gamepad2.right_stick_y);
-        a.setElbowHinge(gamepad2.right_stick_x);
-        a.toggleHand();
+        a.setElbowRotate(gamepad2.right_stick_x);
+
+        if (gamepad2.a && !lastClawState) a.toggleHand();
+        lastClawState = gamepad2.a;
     }
 
 }
